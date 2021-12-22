@@ -1,0 +1,102 @@
+#PCheader {
+  background-image: url("PCheader.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 33.8vw;
+}
+#PCdaytime {
+  background-image: url("PCdaytime.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 7.8vw;
+}
+#PCguest {
+  background-image: url("PCguest.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 83.3vw;
+}
+#PCapply {
+  background-image: url("PCapply.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 61.46vw;
+}
+#PCaccess {
+  background-image: url("PCaccess.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 80.73vw;
+}
+#PCcontact {
+  background-image: url("PCcontact.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 21.88vw;
+}
+#PCfooter {
+  background-image: url("PCfooter.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 14.32vw;
+}
+#PCcopyright {
+  background-image: url("PCcopyright.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 3.91vw;
+}
+#MOBILEheader {
+  background-image: url("MOBILEheader.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 146.6vw;
+}
+#MOBILEheader {
+  background-image: url("MOBILEheader.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 146.6vw;
+}
+#MOBILEdaytime {
+  background-image: url("MOBILEdaytime.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 72vw;
+}
+#MOBILEguest {
+  background-image: url("MOBILEguest.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 384vw;
+}
+#MOBILEapply {
+  background-image: url("MOBILEapply.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 241.3vw;
+}
+#MOBILEaccess {
+  background-image: url("MOBILEaccess.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 290.6vw;
+}
+#MOBILEcontact {
+  background-image: url("MOBILEcontact.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 53.3vw;
+}
+#MOBILEfooter {
+  background-image: url("MOBILEfooter.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 46.6vw;
+}
+#MOBILEcopyright {
+  background-image: url("MOBILEcopyright.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 18.6vw;
+}

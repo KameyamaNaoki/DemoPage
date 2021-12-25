@@ -1,102 +1,123 @@
-#PCheader {
-  background-image: url("PCheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 33.8vw;
+@media screen and (min-width: 768px) {
+  #header-bar {
+    display: none;
+  }
+  #main-visual {
+    background-image: url("img/PCmain-visual.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 33.85vw;
+  }
+  #time-day {
+    background-image: url("img/PCtime-day.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 7.81vw;
+  }
+  #content {
+    background-image: url("img/PCcontent.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 140.6vw;
+  }
+  #apply {
+    background-image: url("img/PCapply.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 66.6vw;
+  }
+  #PCapplybutton {
+    width: 46.8vw;
+    height: 5.26vw;
+    position: relative;
+    top: 39.2vw;
+    left: 26.6vw;
+  }
+  #access {
+    background-image: url("img/PCaccess.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 80.7vw;
+  }
+  #contact {
+    background-image: url("img/PCcontact.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 21.8vw;
+  }
+  #organizer {
+    background-image: url("img/PCorganizer.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 14.3vw;
+  }
+  #copyright {
+    background-image: url("img/PCcopyright.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 3.9vw;
+  }
 }
-#PCdaytime {
-  background-image: url("PCdaytime.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 7.8vw;
-}
-#PCguest {
-  background-image: url("PCguest.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 83.3vw;
-}
-#PCapply {
-  background-image: url("PCapply.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 61.46vw;
-}
-#PCaccess {
-  background-image: url("PCaccess.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 80.73vw;
-}
-#PCcontact {
-  background-image: url("PCcontact.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 21.88vw;
-}
-#PCfooter {
-  background-image: url("PCfooter.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 14.32vw;
-}
-#PCcopyright {
-  background-image: url("PCcopyright.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 3.91vw;
-}
-#MOBILEheader {
-  background-image: url("MOBILEheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 146.6vw;
-}
-#MOBILEheader {
-  background-image: url("MOBILEheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 146.6vw;
-}
-#MOBILEdaytime {
-  background-image: url("MOBILEdaytime.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 72vw;
-}
-#MOBILEguest {
-  background-image: url("MOBILEguest.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 384vw;
-}
-#MOBILEapply {
-  background-image: url("MOBILEapply.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 241.3vw;
-}
-#MOBILEaccess {
-  background-image: url("MOBILEaccess.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 290.6vw;
-}
-#MOBILEcontact {
-  background-image: url("MOBILEcontact.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 53.3vw;
-}
-#MOBILEfooter {
-  background-image: url("MOBILEfooter.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 46.6vw;
-}
-#MOBILEcopyright {
-  background-image: url("MOBILEcopyright.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 18.6vw;
+@media all and (max-width: 767px) {
+  #header-bar {
+    background-image: url("img/MOBILEhedder-bar.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 13.3vw;
+  }
+  #main-visual {
+    background-image: url("img/MOBILEmain-visual.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 160vw;
+  }
+  #time-day {
+    background-image: url("img/MOBILEtime-day.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 72vw;
+  }
+  #content {
+    background-image: url("img/MOBILEcontent.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 550.6vw;
+  }
+  #apply {
+    background-image: url("img/MOBILEapply.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 213.3vw;
+  }
+  #MOBILEapplybutton {
+    width: 60vw;
+    height: 13.3vw;
+    position: relative;
+    top: 152vw;
+    left: 20vw;
+  }
+  #access {
+    background-image: url("img/MOBILEaccess.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 273.3vw;
+  }
+  #contact {
+    background-image: url("img/MOBILEcontact.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 53.3vw;
+  }
+  #organizer {
+    background-image: url("img/MOBILEorganizer.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 34.6vw;
+  }
+  #copyright {
+    background-image: url("img/MOBILEcopyright.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 18.6vw;
+  }
 }

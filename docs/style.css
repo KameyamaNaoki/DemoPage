@@ -1,102 +1,323 @@
-#PCheader {
-  background-image: url("PCheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 33.8vw;
+body {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  font-weight: 500;
 }
-#PCdaytime {
-  background-image: url("PCdaytime.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 7.8vw;
+@media screen and (min-width: 768px) {
+  #header-bar {
+    display: none;
+  }
+  #main-visual {
+    background-image: url("img/PCmain-visual.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 33.85vw;
+  }
+  #main-visual a {
+    width: 9vw;
+    height: auto;
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+  }
+  .header__logo {
+    width: 9vw;
+    height: auto;
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    cursor: pointer;
+  }
+  #time-day {
+    background-image: url("img/PCtime-day.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 7.81vw;
+  }
+  #content {
+    background-image: url("img/PCcontent.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 140.6vw;
+  }
+  #apply {
+    background-image: url("img/PCapply.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 66.6vw;
+  }
+  #apply__container {
+    position: relative;
+    top: 10vw;
+    left: 18.75vw;
+    width: 62.5vw;
+    height: 37.5vw;
+    background-color: white;
+    border-radius: 1.85vw;
+  }
+  .apply__text {
+    position: relative;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+    margin-bottom: 7%;
+    font-size: 1.25vw;
+    display: grid;
+    grid-template:
+      "title space main"
+      /19% 1% 80%;
+  }
+  .apply__text--title {
+    grid-area: title;
+    font-weight: bold;
+  }
+  .apply__text--main {
+    grid-area: main;
+  }
+  .apply__text--bullet {
+    color: #007759;
+  }
+  #apply__button {
+    position: relative;
+    width: 80%;
+    height: 17%;
+    top: 15%;
+    left: 10%;
+    background-color: #007759;
+  }
+  #arrow {
+    position: relative;
+    left: 83.5%;
+    top: 5%;
+    width: 4%;
+    height: 2%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: skew(45deg);
+  }
+  #apply__button:hover {
+    background-color: #07ad83;
+  }
+  #apply__capacity {
+    position: relative;
+    top: 23%;
+    text-align: center;
+  }
+  #apply__capacity--main {
+    display: inline-block;
+    color: #007759;
+    font-weight: bold;
+    font-size: 2.6vw;
+    border-bottom: solid 2px #007759;
+  }
+  #apply__capacity--main span {
+    font-size: 3.3vw;
+    text-decoration: none;
+  }
+  #apply__capacity--atn {
+    font-size: 1.3vw;
+  }
+  #access {
+    background-image: url("img/PCaccess.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 80.7vw;
+  }
+  #access__map {
+    width: 46.8vw;
+    height: 18.7vw;
+    position: relative;
+    top: 58%;
+    left: 26.6%;
+  }
+  #contact {
+    background-image: url("img/PCcontact.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 21.8vw;
+  }
+  #organizer {
+    background-image: url("img/PCorganizer.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 14.3vw;
+    text-align: center;
+  }
+  .organizer__logo {
+    height: 35%;
+    width: auto;
+    position: relative;
+    top: 45%;
+    cursor: pointer;
+  }
+  #copyright {
+    background-image: url("img/PCcopyright.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 3.9vw;
+  }
 }
-#PCguest {
-  background-image: url("PCguest.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 83.3vw;
-}
-#PCapply {
-  background-image: url("PCapply.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 61.46vw;
-}
-#PCaccess {
-  background-image: url("PCaccess.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 80.73vw;
-}
-#PCcontact {
-  background-image: url("PCcontact.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 21.88vw;
-}
-#PCfooter {
-  background-image: url("PCfooter.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 14.32vw;
-}
-#PCcopyright {
-  background-image: url("PCcopyright.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 3.91vw;
-}
-#MOBILEheader {
-  background-image: url("MOBILEheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 146.6vw;
-}
-#MOBILEheader {
-  background-image: url("MOBILEheader.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 146.6vw;
-}
-#MOBILEdaytime {
-  background-image: url("MOBILEdaytime.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 72vw;
-}
-#MOBILEguest {
-  background-image: url("MOBILEguest.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 384vw;
-}
-#MOBILEapply {
-  background-image: url("MOBILEapply.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 241.3vw;
-}
-#MOBILEaccess {
-  background-image: url("MOBILEaccess.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 290.6vw;
-}
-#MOBILEcontact {
-  background-image: url("MOBILEcontact.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 53.3vw;
-}
-#MOBILEfooter {
-  background-image: url("MOBILEfooter.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 46.6vw;
-}
-#MOBILEcopyright {
-  background-image: url("MOBILEcopyright.png");
-  background-size: 100%;
-  width: 100vw;
-  height: 18.6vw;
+@media all and (max-width: 767px) {
+  #header-bar {
+    background-color: white;
+    background-size: 100%;
+    width: 100vw;
+    height: 13.3vw;
+    text-align: center;
+  }
+  .header__logo {
+    height: 70%;
+    width: auto;
+    position: relative;
+    top: 15%;
+    cursor: pointer;
+  }
+  #main-visual {
+    background-image: url("img/MOBILEmain-visual.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 160vw;
+  }
+  #time-day {
+    background-image: url("img/MOBILEtime-day.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 72vw;
+  }
+  #content {
+    background-image: url("img/MOBILEcontent.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 550.6vw;
+  }
+  #apply {
+    background-image: url("img/MOBILEapply.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 190vw;
+  }
+  #apply__container {
+    position: relative;
+    top: 20vw;
+    left: 10.7vw;
+    width: 78.6vw;
+    height: 130vw;
+    background-color: white;
+    border-radius: 5vw;
+  }
+  .apply__text {
+    position: relative;
+    width: 80%;
+    top: 7%;
+    left: 10%;
+    margin-bottom: 7%;
+    font-size: 3.6vw;
+  }
+  .apply__text--title {
+    font-size: 4.6vw;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  .apply__text--main {
+    margin-bottom: 14%;
+  }
+  .apply__text--bullet {
+    color: #007759;
+  }
+  #apply__button {
+    position: relative;
+    width: 80%;
+    height: 9%;
+    top: 8%;
+    left: 10%;
+    background-color: #007759;
+    font-size: 3.6vw;
+  }
+  /* #apply__button:hover {
+    background-color: #07ad83;
+  } */
+  #arrow {
+    position: relative;
+    left: 78%;
+    top: 3%;
+    width: 8%;
+    height: 1%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: skew(45deg);
+  }
+  #apply__capacity {
+    position: relative;
+    top: 15%;
+    text-align: center;
+  }
+  #apply__capacity--main {
+    display: inline-block;
+    color: #007759;
+    font-weight: bold;
+    font-size: 7.3vw;
+    border-bottom: solid 2px #007759;
+  }
+  #apply__capacity--main span {
+    font-size: 9vw;
+    text-decoration: none;
+  }
+  #apply__capacity--atn {
+    font-size: 3.3vw;
+  }
+  #MOBILEapplybutton {
+    width: 60vw;
+    height: 13.3vw;
+    position: relative;
+    top: 152vw;
+    left: 20vw;
+  }
+  #access {
+    background-image: url("img/MOBILEaccess.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 273.3vw;
+  }
+  #access__map {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    top: 63.5%;
+  }
+  #contact {
+    background-image: url("img/MOBILEcontact.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 53.3vw;
+    text-align: center;
+  }
+  #contact a {
+    font-size: 8vw;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #0073bc;
+    position: relative;
+    top: 47%;
+  }
+  #organizer {
+    background-image: url("img/MOBILEorganizer.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 34.6vw;
+    text-align: center;
+  }
+  .organizer__logo {
+    height: 25%;
+    width: auto;
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+  }
+  #copyright {
+    background-image: url("img/MOBILEcopyright.png");
+    background-size: 100%;
+    width: 100vw;
+    height: 18.6vw;
+  }
 }

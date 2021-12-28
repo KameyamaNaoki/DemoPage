@@ -11,40 +11,91 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Kyushu-energyLecture</title>
+    <title>九州電力講演会</title>
   </head>
   <body>
-    <div class="d-none d-md-block">
-      <header>
-        <div id="PCheader"></div>
-      </header>
-      <main>
-        <div id="PCdaytime"></div>
-        <div id="PCguest"></div>
-        <div id="PCapply"></div>
-        <div id="PCaccess"></div>
-        <div id="PCcontact"></div>
-      </main>
-      <footer>
-        <div id="PCfooter"></div>
-        <div id="PCcopyright"></div>
-      </footer>
-    </div>
-    <div class="d-block d-md-none">
-      <header>
-        <div id="MOBILEheader"></div>
-      </header>
-      <main>
-        <div id="MOBILEdaytime"></div>
-        <div id="MOBILEguest"></div>
-        <div id="MOBILEapply"></div>
-        <div id="MOBILEaccess"></div>
-        <div id="MOBILEcontact"></div>
-      </main>
-      <footer>
-        <div id="MOBILEfooter"></div>
-        <div id="MOBILEcopyright"></div>
-      </footer>
-    </div>
+    <header>
+      <div id="header-bar">
+        <a href="https://www.kyuden.co.jp/" target="blank"
+          ><img src="img/logo.png" alt="" class="header__logo"
+        /></a>
+      </div>
+      <div id="main-visual">
+        <a
+          href="https://www.kyuden.co.jp/"
+          target="blank"
+          class="d-none d-md-block"
+          ><img src="img/logo.png" alt="" class="header__logo"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <div id="time-day"></div>
+      <div id="content"></div>
+      <div id="apply">
+        <div id="apply__container">
+          <section class="apply__text">
+            <div class="apply__text--title">
+              <span class="apply__text--bullet"> ● </span>応募方法
+            </div>
+            <div class="apply__text--main">
+              専用応募フォームへアクセスし、<br
+                class="d-md-none"
+              />必要事項を入力してご応募ください。
+            </div>
+          </section>
+          <section class="apply__text">
+            <div class="apply__text--title">
+              <span class="apply__text--bullet"> ● </span>参加可否通知
+            </div>
+            <div class="apply__text--main">
+              参加通知メールをご記入のアドレスにお送りします。<br />
+              当日受付に必要なQRコード付きですので大切に保管ください。
+            </div>
+          </section>
+          <section class="apply__text">
+            <div class="apply__text--title">
+              <span class="apply__text--bullet"> ● </span>問い合わせ先
+            </div>
+            <div class="apply__text--main">Mail ： info@kyuden-lect.com</div>
+          </section>
+          <a
+            href="https://www.event-form.jp/event/25773/mKllLTgiAE?g=91Lo0FJZYSvKJOp5"
+            target="blank"
+            ><button type="button" class="btn btn-success" id="apply__button">
+              応募フォームへ
+            </button>
+            <div id="arrow"></div>
+          </a>
+        </div>
+
+        <section id="apply__capacity">
+          <p id="apply__capacity--main">定員:<span>200</span>名様</p>
+          <p id="apply__capacity--atn">
+            ※応募者多数の場合は抽選とさせていただきます。
+          </p>
+        </section>
+      </div>
+      <div id="access">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13599.429864394308!2d130.5513526863466!3d31.555526088071392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353e6197a96c5345%3A0x534d907937eecb73!2z44Ki44O844OI44Ob44OG44Or6bm_5YWQ5bO2!5e0!3m2!1sja!2sjp!4v1640625691234!5m2!1sja!2sjp"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          id="access__map"
+        ></iframe>
+      </div>
+      <div id="contact">
+        <a href="tel:0120-333-615" class="d-md-none">0120-333-615</a>
+      </div>
+    </main>
+    <footer>
+      <div id="organizer">
+        <a href="https://www.kyuden.co.jp/" target="blank"
+          ><img src="img/logo.png" alt="" class="organizer__logo"
+        /></a>
+      </div>
+      <div id="copyright"></div>
+    </footer>
   </body>
 </html>

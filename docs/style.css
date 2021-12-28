@@ -228,6 +228,7 @@ body {
     color: #007759;
   }
   #apply__button {
+    display: inline-block;
     position: relative;
     width: 80%;
     height: 9%;
